@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table {
+                text-align: center;
+            }
+        </style>
+        <title>
+            Form
+        </title>
+    </head>
+    <body>
+     <center>
+        <h2> Our toppers</h2>
+        <table width="50%" border="1">
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                    marks
+                </th>
+                <th>
+                    Medium
+                </th>
+
+            </tr>
+            <tr>
+                <td>
+                    ankur
+                </td>
+                <td>
+                    85%
+                </td>
+                <td>
+                    English
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    vijay
+                </td>
+                <td>
+                    82%%
+                </td>
+                <td>
+                    English
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    Sharvan
+                </td>
+                <td>
+                    80%
+                </td>
+                <td>
+                    Hindi
+                </td>
+
+            </tr>
+        </table>
+     </center>
+
+        <br>
+        <hr>
+        <br>
+        <h2> <u>Please fill the Form</u> </h2>
+
+
+<form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br><br>
+    <button type="submit">Sumit</button>
+</form>
+<br>
+<br>
+
+
+<form action="https://api.web3forms.com/submit" method="POST">
+
+    <!-- Replace with your Access Key -->
+    <input type="hidden" name="access_key" value="a0bc4d19-5b9a-4038-a132-308ef9e5c63c">
+
+    <!-- Form Inputs. Each input must have a name="" attribute -->
+    <input type="text" name="name" required>
+    <input type="email" name="email" required>
+    <input type="tel" name="telephone" required>
+
+
+    <label for="message">Message:</label>
+    <textarea name="message" required></textarea>
+
+
+
+    <!-- Honeypot Spam Protection -->
+    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+    <!-- Custom Confirmation / Success Page -->
+    <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+
+    <button type="submit">Submit Form</button>
+
+</form>
+<hr><br>
+
+<center>
+    <h2>Choose your favourite language</h2>
+    <input type="checkbox" id="lang1" name="English" value="css">
+    <label for="lang1">English</label><br>
+    <input type="checkbox" id="lang2" name="Hindi" value="html">
+    <label for="lang2">Hindi</label><br>
+    <input type="checkbox" id="lang3" name="Maths" value="js">
+    <label for="lang3">Mathns</label><br>
+    
+    </center>
+    <br>
+    <br>
+    
+    
+    <h3>Choose your strong language</h3>
+    <input type="radio" id="l1" name="subj" value="css">
+    <label for="lang1">English</label><br>
+    <input type="radio" id="lang2" name="subj" value="html">
+    <label for="lang2">Hindi</label><br>
+    <input type="radio" id="lan3" name="subj" value="js">
+    <label for="lang3">Mathns</label><br>
+    
+
+
+
+
+
+    </body>
+</html>
